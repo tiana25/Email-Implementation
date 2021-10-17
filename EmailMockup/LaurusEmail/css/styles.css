@@ -1,0 +1,143 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Roboto'), local('Roboto-Regular'),
+         url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Medium'), local('Roboto-Medium'),
+         url('../fonts/roboto-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/raleway-v17-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v17-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-500 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/raleway-v17-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v17-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* raleway-700 - latin */
+  @font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/raleway-v17-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/raleway-v17-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+body{
+    margin:0;
+    padding:0;
+    color: #333333;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+table{
+    border-spacing:0;
+}
+td{
+    padding:0;
+}
+img{
+    border:0;
+}
+.wrapper{
+    width:100%;
+    table-layout:fixed; 
+}
+.webkit{
+    max-width:680px;
+}
+.outer{
+    margin:0 auto;
+    width:100%;
+    max-width:680px;
+}
+.padding{
+    padding:0 100px;
+}
+#confirm_button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    border:none;
+    text-align: center;
+    letter-spacing: -0.25px;
+    background:#c6ac7f;
+    color: #FFFFFF;
+    border-radius:4px;
+    max-width:192px;
+    padding:5px 40px 5px 40px;
+    margin-bottom:50px;
+}
+#bottom_block{
+    padding:30px 22px 30px 22px;
+    background: #F6F6F6;
+    border-radius: 4px;
+    margin-bottom:20px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+}
+#bottom_block a{
+    text-decoration:none;
+    color:#C6AC7F;
+}
+#imprint a{
+    margin-right:30px;
+    color: #333333;
+}
+#bottom{
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.25px;
+
+    color: #333333;
+    opacity: 0.8;
+}
+#bottom a{
+    text-decoration:none;
+}
+#confirm-email{
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #C6AC7F;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+    letter-spacing: -1px;
+}
+@media screen and (max-width:400px){
+    .padding{
+        padding:0 20px;
+    }
+    #logo{
+        text-align:center;
+        padding-top:0px!important;
+        padding-left:0px!important;
+    }
+}
